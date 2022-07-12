@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/estilo.css">
-        <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="icon" href="assets/img/icon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <title>Instagram</title>
     </head>
 
@@ -20,27 +20,54 @@
 
             <div class="right">
                 <!-- div referente ao lado direito do conteúdo, com as opções de login com credenciais, com facebook, recuperação de senha ou cadastro -->
-                
-                <div class="logo">
-                    <img src="assets/img/logo.png">
+                <div class="login-option">
+                    <div class="logo">
+                        <img src="assets/img/logo.png">
+                    </div>
+
+                    
+                    <!-- Essa é a parte de login, onde irá conter os campos: usuário, senha-->
+                    <form>
+                        <input type="text" class="username" placeholder="Telefone, nome de usuário ou email">
+                        <input type="password" placeholder="Senha">
+                        <button>Entrar</button>
+                    </form>
+                    
+
+                    <div class="underline">
+                        <span>
+                            OU
+                        </span>
+                    </div>
+
+                    <div>
+                        <!-- Entrar com facebook e "esqueceu a senha?" -->
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-square"></i>
+                            Entre com o Facebook
+                        </a>
+                        <br>
+
+                        <a href="#">Esqueceu a senha?</a>
+                    </div>
+
                 </div>
                 
                 <div class="login-option">
-                    <!-- Essa é a parte de login, onde irá conter os campos: usuário, senha, logar com facebook e "esqueceu a senha?"-->
-                </div>
-
-                <div class="sign-option">
                     <!-- Parte de cadastro -->
                     <p>Não tem um conta? <a href="#">Cadastre-se</a></p>
                 </div>
 
+                <p>Obtenha o aplicativo.</p>
                 <div class="download">
-                    <p>Obtenha o aplicativo.</p>
-
                     <img src="assets/img/appstore.png" alt="Link AppStore">
                     <span><img src="assets/img/googleplay.png" alt="Link Google Play"></span>
                 </div>
             </div>
         </div>
+
+        <footer>
+        
+        </footer>
     </body>
 </html>
